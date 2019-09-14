@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		586DCC7A232C5A8D002E343F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586DCC79232C5A8D002E343F /* MenuViewController.swift */; };
 		58D82DAD2323170A002B77F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D82DAC2323170A002B77F4 /* AppDelegate.swift */; };
 		58D82DAF2323170A002B77F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D82DAE2323170A002B77F4 /* ViewController.swift */; };
 		58D82DB22323170A002B77F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D82DB02323170A002B77F4 /* Main.storyboard */; };
 		58D82DB42323170C002B77F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D82DB32323170C002B77F4 /* Assets.xcassets */; };
 		58D82DB72323170C002B77F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D82DB52323170C002B77F4 /* LaunchScreen.storyboard */; };
+		58D82DBF23231A1D002B77F4 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D82DBE23231A1D002B77F4 /* cachorro.png */; };
+		58D82DC4232329AC002B77F4 /* menu_cliente.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D82DC0232329AB002B77F4 /* menu_cliente.png */; };
+		58D82DC5232329AC002B77F4 /* menu_servico.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D82DC1232329AB002B77F4 /* menu_servico.png */; };
+		58D82DC6232329AC002B77F4 /* menu_contato.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D82DC2232329AB002B77F4 /* menu_contato.png */; };
+		58D82DC7232329AC002B77F4 /* menu_empresa.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D82DC3232329AB002B77F4 /* menu_empresa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		586DCC79232C5A8D002E343F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		58D82DA92323170A002B77F4 /* SecondApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D82DAC2323170A002B77F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58D82DAE2323170A002B77F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,11 @@
 		58D82DB32323170C002B77F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58D82DB62323170C002B77F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58D82DB82323170C002B77F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D82DBE23231A1D002B77F4 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
+		58D82DC0232329AB002B77F4 /* menu_cliente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_cliente.png; sourceTree = "<group>"; };
+		58D82DC1232329AB002B77F4 /* menu_servico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_servico.png; sourceTree = "<group>"; };
+		58D82DC2232329AB002B77F4 /* menu_contato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_contato.png; sourceTree = "<group>"; };
+		58D82DC3232329AB002B77F4 /* menu_empresa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_empresa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +66,14 @@
 		58D82DAB2323170A002B77F4 /* SecondApp */ = {
 			isa = PBXGroup;
 			children = (
+				58D82DC0232329AB002B77F4 /* menu_cliente.png */,
+				58D82DC2232329AB002B77F4 /* menu_contato.png */,
+				58D82DC3232329AB002B77F4 /* menu_empresa.png */,
+				58D82DC1232329AB002B77F4 /* menu_servico.png */,
+				58D82DBE23231A1D002B77F4 /* cachorro.png */,
 				58D82DAC2323170A002B77F4 /* AppDelegate.swift */,
 				58D82DAE2323170A002B77F4 /* ViewController.swift */,
+				586DCC79232C5A8D002E343F /* MenuViewController.swift */,
 				58D82DB02323170A002B77F4 /* Main.storyboard */,
 				58D82DB32323170C002B77F4 /* Assets.xcassets */,
 				58D82DB52323170C002B77F4 /* LaunchScreen.storyboard */,
@@ -122,9 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D82DBF23231A1D002B77F4 /* cachorro.png in Resources */,
+				58D82DC4232329AC002B77F4 /* menu_cliente.png in Resources */,
 				58D82DB72323170C002B77F4 /* LaunchScreen.storyboard in Resources */,
 				58D82DB42323170C002B77F4 /* Assets.xcassets in Resources */,
+				58D82DC7232329AC002B77F4 /* menu_empresa.png in Resources */,
+				58D82DC5232329AC002B77F4 /* menu_servico.png in Resources */,
 				58D82DB22323170A002B77F4 /* Main.storyboard in Resources */,
+				58D82DC6232329AC002B77F4 /* menu_contato.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58D82DAF2323170A002B77F4 /* ViewController.swift in Sources */,
+				586DCC7A232C5A8D002E343F /* MenuViewController.swift in Sources */,
 				58D82DAD2323170A002B77F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
